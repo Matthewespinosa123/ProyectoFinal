@@ -1,0 +1,273 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(231, 76, 60);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.boton {
+    background-color: #201f1f;
+    color: white;
+    border: 2px solid #555555;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fondo img {
+    background: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 120vh;
+    width: 100%;
+}
+
+
+.fondo {
+    position: relative;
+}
+
+.fotoTitulo {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.fondo2 {
+    position: relative;
+}
+
+.fotoTitulo2 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.fondo2 img {
+    background: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 70vh;
+    width: 100%;
+}
+
+
+.textoFotoTitulo2 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+        3px 3px 1px rgb(0, 0, 0),
+        5px 5px 2px rgb(255, 0, 0),
+        8px 8px 3px rgb(78, 78, 94);
+    font-family: Verdana;
+    font-family: 'PT Sans';
+    text-align: center;
+
+}
+
+.fondo3 {
+    position: relative;
+}
+
+
+
+.fondo3 img {
+    background: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 110vh;
+    width: 100%;
+}
+
+
+.textoFotoTitulo3 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+        3px 3px 1px rgb(0, 0, 0),
+        5px 5px 2px rgb(255, 0, 0),
+        8px 8px 3px rgb(78, 78, 94);
+    font-family: Verdana;
+    font-family: 'PT Sans';
+    text-align: center;
+
+}
+
+
+
+
+.fila2 {
+    background-color: #2e4e94;
+    color: #ffffff;
+    font-family: Verdana;
+    font-family: 'PT Sans';
+    text-align: center;
+    padding: 4px;
+}
+
+.fila3 {
+    background-color: #3a4355;
+    color: #ffffff;
+    font-family: Verdana;
+    font-family: 'PT Sans';
+    text-align: center;
+    padding: 4px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(231, 76, 60);
+    color: white;
+}
+
+table {
+
+    border-collapse: collapse;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+td,
+th {
+    margin: 0 auto;
+    border: 3px solid black;
+    width: 49%;
+}
+
+.iconos {
+
+    text-align: center;
+
+
+}
+
+
+
+
+.registro {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: #555555;
+}
+
+.registro {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.fregistro a {
+    color: white;
+    text-decoration: none;
+}
+
+.fregistro a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.registro .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+
+    nav {
+        padding: 10px 0px;
+    }
+}
